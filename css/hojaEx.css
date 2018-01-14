@@ -1,0 +1,142 @@
+body{
+    background:url(../imagenes/fondo2.jpg);
+    background-attachment:fixed;
+    background-color:snow;
+    font-size:x-large;
+    color:white;
+    display:flex;
+    min-height:100vh;
+    flex-wrap:wrap;
+    font-family:'Times New Roman';
+}
+h1 {
+    color:gold;
+  
+    font-weight:bolder;
+    text-align:left;
+    text-shadow:1px 1px 1px white;
+    float:left;
+
+}
+#imgperfil{
+    width:10%;
+    height:auto;
+    border-color:#000000;
+    border-radius:10px;
+    padding:8px 8px 8px 8px;
+    border:2px solid white;
+    float:right;
+
+
+}
+p {
+
+    text-align:left;
+    line-height:30px;
+    clear:both;
+    color:white;
+}
+
+#documento {
+text-align:left;
+position:relative;
+width:70%;
+left:15%;
+top:30px;
+align-content:center;
+
+}
+footer {
+    width:100%;
+   align-self:flex-end;
+    background:#808080;
+    padding:5% 5% 5% 5%;
+    margin-top:5%;
+  }
+#redes {
+  
+       float:right;
+       position:relative;
+       top:-30px;
+}
+
+#imgfooter{
+
+    width:8%;
+    height:auto;
+    border-radius:50%;
+    border:1px solid gold;
+    float:left;
+    margin-right:5%;
+    margin-top:1%;
+
+
+}
+#botones button{
+    position: fixed; 
+	left: 0; 
+	z-index: 2000; 
+width:115px;
+height:auto;
+ border-radius:8%;
+ font-size:initial;
+ background:white;
+ color: gold;
+  font-weight:bold;
+padding: 10px 8px;
+text-decoration: none;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+ 
+}
+
+#botones #es {
+top: 200px; 
+}
+#botones #re {
+    top:150px;
+}
+#botones #ex {
+top:80px;
+}
+
+    #botones button:hover {
+        width:180px;
+        padding: 10px 30px;
+        background:gold;
+        color: white;
+       font-weight:900;
+        box-shadow: inset 0 0 0 3px gold;
+    }
+
+     
+#con {
+    position:relative; 
+     font-size:initial;
+     color:#000000;
+    left:-28%;
+    top:1100px;
+    height:45px;
+    font-weight:bold;
+    border-radius:8%;
+    border:2px solid gold;
+    background:#ffffff;
+    padding: 10px 35px;
+    overflow:hidden
+}
+    #con:before {
+ font-family: FontAwesome;
+ content:url(../imagenes/icono.png);
+ position: absolute;
+ top: 11px;
+ left: -30px;
+ transition: all 200ms ease;
+    }
+    #con:hover::before {
+      
+ left: 7px;
+
+    }
+ 
+
